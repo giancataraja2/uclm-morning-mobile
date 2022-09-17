@@ -1,0 +1,6 @@
+Write a program that prompts the user to input a number. The program should then output the number and a message saying whether a number is positive, negative, or zero.
+Example:
+input is -9
+
+Output
+The number is -9 and negative.
