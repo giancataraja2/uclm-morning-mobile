@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="firstname"></p>
+<p id="famname"></p>
+<p id="completename" style="color:blue"></p>
+<p id="mood" style="color:red"></p>
+
+<script>
+    let x = 20;
+    let y = 10;
+    const pi = 3.14;
+    const numberHrsPerDay = 24;
+    let studentFirstName = "Breille";
+    let studentFamName = "Ligan";
+    let myMood = "I'm hungry";
+
+    x = 15;
+    let z = x + y;
+    document.getElementById("demo").innerHTML =
+        "The value of z is: " + z;
+    document.getElementById("demo2").innerHTML =
+        "The value of pi: " + pi;
+    document.getElementById("firstname").innerHTML =
+        "Student Firstname: " + studentFirstName;
+    document.getElementById("famname").innerHTML =
+        "Student Familyname: " + studentFamName;
+    document.getElementById("completename").innerHTML =
+        "Student Fullname is: " + studentFirstName + "&nbsp;&nbsp;&nbsp;" + studentFamName;
+    document.getElementById("mood").innerHTML =
+        "My mood: " + myMood;
+</script>
+
+</body>
+</html>
